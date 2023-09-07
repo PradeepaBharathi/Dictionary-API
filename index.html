@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+</head>
+<body>
+    <div clas="container">
+        <h1> DICTIONARY</h1>
+        <form>
+            <div class="form-group">
+                <label for="word">Enter a word</label>
+                <input type="text" class="form-control" id="word"/>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="getMeaning()">
+                Get Meaning
+            </button>
+        </form>
+        <hr/>
+        <div id="meaning">
+            <h2>Meaning</h2>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
